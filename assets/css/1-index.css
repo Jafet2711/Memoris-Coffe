@@ -1,0 +1,195 @@
+body{
+    background-color: rgb(87, 22, 22);
+      overflow-x: hidden; /* <- evita que el contenido transformado genere scroll a la derecha */
+    
+}
+
+header{
+padding: 1%;
+
+}
+
+
+
+.d-flex{
+ 
+  color: white !important;
+  border: none;
+  border-radius: 0;
+  padding: 20px ;
+ 
+}
+.d-flex p{
+    color: white !important;
+}
+.d-flex a{
+  font-size: large;
+   color: white !important;
+}
+
+
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: -3% auto; 
+}
+
+
+
+nav img{
+   
+ border-radius: 50%;
+ width: 40%;
+ height: 75%;
+    
+}
+
+
+article{
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    gap: 15%;
+    padding:  5%;
+    
+
+
+}
+
+.contenedor{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color:   #b88c6a57;
+    width: 90%;
+    height: 50vh;
+    margin-top: 5%;
+    transform: translateX(-100vw); /* lo sacamos 100vw a la izquierda */
+    
+   
+    
+    
+}
+
+
+.contenedor2{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color:   #b88c6a57;
+    width: 90%;
+    height: 50vh;
+    margin-top: 5%;
+    transform: translateX(100vw); /* lo sacamos 100vw a la izquierda */
+    
+   
+    
+    
+}
+
+
+.aside1{
+  
+width: 50%;
+padding-left: 1%;
+
+}
+.aside1 h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+   
+}
+.aside1 p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+   
+}
+.aside2{
+    
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.aside2 img{
+    width: 100%;
+    height: 100%;
+   
+    
+}
+
+
+.muestraPastel{
+   
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 80vh;
+   transform: none;
+}
+
+.content-img{
+    
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     transform: none;
+   
+}
+.content-img img{
+    
+   overflow: hidden;
+   width: 80%;
+    height: 90%;
+}
+
+.irPastel{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     transform: none;
+}
+
+.btnPastel{
+    background-color: rgb(206, 95, 22);
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+    
